@@ -1,0 +1,1 @@
+{"version":3,"sources":["appCore.js"],"names":[],"mappings":"AAAA;AACA","file":"../application.js","sourcesContent":["var applicationBase = 1;\nvar APP = APP || {};"]}

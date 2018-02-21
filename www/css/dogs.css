@@ -1,0 +1,225 @@
+/* https://github.com/Jasig/sass-maven-plugin/issues/47 */
+/* core */
+ul {
+  padding: 0px;
+}
+
+.abs {
+  position: absolute;
+}
+
+.full {
+  width: 99%;
+}
+
+/* style guide */
+.catalog {
+  list-style-type: none;
+}
+.catalog li {
+  display: inline-block;
+}
+
+/* core : icons */
+[class^="icon"] {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  padding: 5px;
+  margin: 5px;
+}
+
+span.icon {
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* begin dogs font / scss */
+@font-face {
+  font-family: 'dogs';
+  src: url("/common/fonts/dogs.eot");
+  src: url("/common/fonts/dogs.eot#iefix") format("embedded-opentype"), url("/common/fonts/dogs.ttf") format("truetype"), url("/common/fonts/dogs.woff") format("woff"), url("/common/fonts/dogs.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.bg.dogs {
+  text-align: center;
+}
+.bg.dogs [class^="icon dog-"] {
+  font-size: 40em;
+  opacity: .05;
+  line-height: 1;
+}
+
+.dogs.lg [class^="icon dog-"] {
+  font-size: 16em;
+  line-height: 1.1em;
+}
+.dogs [class^="icon dog-"] {
+  font-size: 8em;
+  line-height: 1.1em;
+}
+
+.icon {
+  /* border colors */
+  /* custom bg image */
+  /* bg colors */
+  /* icon colors */
+  /* shadows */
+}
+.icon.circle {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -moz-background-clip: inherit;
+  -webkit-background-clip: inherit;
+  background-clip: inherit;
+  text-align: center;
+  line-height: normal;
+  font-size: 7.2em;
+  line-height: 1em;
+}
+.icon.circle::before {
+  display: block;
+  margin: 5px;
+}
+.icon.circle.thin {
+  border-width: 1px;
+  border-style: solid;
+}
+.icon.circle.double {
+  border-width: 4px;
+  border-style: double;
+  font-size: 6.9em;
+}
+.icon.circle.thick {
+  border-width: 3px;
+  border-style: solid;
+  font-size: 7em;
+}
+.icon.border-primary {
+  border-color: orange;
+}
+.icon.border-secondary {
+  border-color: #004900;
+}
+.icon.border-white {
+  border-color: white;
+}
+.icon.border-black {
+  border-color: black;
+}
+.icon.border-grey {
+  border-color: grey;
+}
+.icon.bgimg-alt1 {
+  background: url(/common/images/HeaderBG1.gif);
+}
+.icon.bgimg-alt2 {
+  background: url(/common/images/iconbg-alt2.png);
+}
+.icon.bg-primary {
+  background-color: orange;
+}
+.icon.bg-secondary {
+  background-color: #004900;
+}
+.icon.bg-white {
+  background-color: #fff;
+}
+.icon.bg-black {
+  background-color: #000;
+  color: white;
+}
+.icon.bg-grey {
+  background-color: #333;
+  color: white;
+}
+.icon.bg-blue {
+  background-color: #0019a8;
+}
+.icon.icon-primary::before {
+  color: orange;
+}
+.icon.icon-secondary::before {
+  color: #004900;
+}
+.icon.icon-black::before {
+  color: black;
+}
+.icon.icon-white::before {
+  color: white;
+}
+.icon.icon-red::before {
+  color: #ad0000;
+}
+.icon.shadow {
+  box-shadow: grey 0px 0px 15px;
+}
+.icon.shadow-offset {
+  box-shadow: grey 5px 5px 15px;
+}
+
+.DDD:after {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin: 6px;
+  opacity: .6;
+  color: maroon;
+  padding: 5px;
+}
+
+[class*=" dog-"] {
+  font-family: 'dogs';
+}
+
+.dog-e900:before, .dog-e900.DDD:after {
+  content: "\e900";
+}
+
+.dog-e901:before, .dog-e901.DDD:after {
+  content: "\e901";
+}
+
+.dog-e902:before, .dog-e902.DDD:after {
+  content: "\e902";
+}
+
+.dog-e903:before, .dog-e903.DDD:after {
+  content: "\e903";
+}
+
+.dog-e904:before, .dog-e904.DDD:after {
+  content: "\e904";
+}
+
+.dog-e905:before, .dog-e905.DDD:after {
+  content: "\e905";
+}
+
+.dog-e906:before, .dog-e906.DDD:after {
+  content: "\e906";
+}
+
+.dog-e907:before, .dog-e907.DDD:after {
+  content: "\e907";
+}
+
+.dog-e908:before, .dog-e908.DDD:after {
+  content: "\e908";
+}
+
+.dog-e909:before, .dog-e909.DDD:after {
+  content: "\e909";
+}
+
+/*# sourceMappingURL=dogs.css.map */
